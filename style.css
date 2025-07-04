@@ -1,0 +1,121 @@
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#title {
+    font-size: 10em;
+}
+
+body {
+    margin:0; 
+    padding:0;
+}
+
+* {
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+}
+
+.partition {
+    height: 100vh;
+    width: 100vw;
+    max-width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow:hidden
+}
+
+.partition * {
+    margin-left:1vw;
+}
+
+#heroshot {
+    background:linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%), url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Test.svg/2560px-Test.svg.png');
+    color:white; 
+    display:flex; 
+    flex-direction: column;
+    align-content: center;
+    justify-content: unset !important;
+}
+
+#heroshot div {  
+    justify-self: flex-end;
+}
+
+#navbar {
+    margin-left: 0 !important; 
+    background-color: #000000e0;
+    padding:10px 10px;
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+button {
+    margin-left: 0 !important; 
+    background-color: black;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+}
+
+#main {
+    align-content: flex-end;
+    background-color: #222;
+}
+
+ul li {
+    font-size: 26px;
+}
+
+#footer {
+    background-color: black;
+    padding:14px;
+}
+
+#footer p {
+    margin:0px 10px;
+    color:white;
+}
+
+#inspirations {
+    justify-content: flex-start !important;
+    background-color:black;
+    color:white;
+}
+
+.feature {
+    font-size:36px; 
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+} 
+
+.feature:hover {
+    font-size:calc(36px*1.2);
+}
+
+a {
+    text-decoration-style: none;
+    padding:0;
+    margin:0;
+}

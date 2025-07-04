@@ -3,13 +3,48 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Timedash - Time tracking made easy</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     </head>
     <body>
-        
-        <script src="" async defer></script>
+        <div id="heroshot" class="partition">
+            <div id="navbar"> 
+                <a href="./index.html"><button>Landing</button></a>
+                <a href="./dashboard/dashboard.html"><button>Dashboard</button></a> 
+                <a href="./timer/timer.html"><button>Timer</button></a>
+            </div> 
+            <br><br>
+            <h1 id="title">Timedash</h1>
+            <h2>Time tracking made easy</h2>
+        </div>
+        <div id="main" class="partition">
+            <p>Timedash takes care of time management and tracking for you.</p>
+            <p>It's designed to be accessible and easy to use to help you stay focused on your work.</p>
+            <p>With Timedash, you can easily start and stop timers for different tasks, view your time logs, and analyze your productivity.</p>
+        </div>
+        <div id="features" class="partition">
+            <ul>
+                <li id="feature1" class="feature">Start and stop timers with ease</li>
+                <li id="feature2" class="feature">Set goals and view progress on the dashboard</li>
+                <li id="feature3" class="feature">Track your time effortlessly</li>
+            </ul> 
+        </div>
+        <div id="inspirations" class="partition">
+            <p>This project was primarily created as a way to simplify tracking driving time for Driver's Training - customizable goals with a total overall goal
+                is exactly what I needed to keep track of my driving time. However, this would also apply to coding time in a manner similar to Hackatime! 
+                Anything that can or should be timed can be tracked with Timedash. As well, you can set comprehensive and dynamic goals (such as 2 hours a day,
+                15 hours a week, etc) to boost productivity even further!</p>
+            </p>
+        </div>
+        <div id="footer">
+            <p>Made for HackClub's 2025 "Summer of Making" event!</p>
+        </div>
+        <script src="./script.js" defer></script>
     </body>
 </html>
